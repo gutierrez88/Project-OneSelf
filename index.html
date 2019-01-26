@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <title>Mad Dog Maddox</title>
+</head>
+
+<body>
+    <div class="container">
+        <form class=" row">
+            <div class="col-6 my-1 ">
+            </div>
+
+            <div class="co-2 my-1 " id="login">
+                <input type="email" class="form-control done" id="InputParent1" placeholder="Email">
+            </div>
+
+            <div class="col-2 my-1 " id="login">
+                <input type="password" class="form-control done" id="InputChild1" placeholder="Password">
+            </div>
+
+            <div class="col-1 my-1 p-0">
+                <button type="submit" class="btn btn-primary  w-100" id="btn1">Sign-in</button>
+            </div>
+        </form>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" role="dialog">
+                                <div class="modal-dialog">
+
+                                    <!-- Modal content-->
+                                    <div class="modal-content">
+                                        <div class="modal-body">
+                                            <h1 id="signInText"></h1>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+
+        <br>
+        <br>
+        <div class='row'>
+            <div class="col-sm-6" id='left'>
+                <iframe width="530" height="450" src="https://www.youtube.com/embed/FwOikFwEAKk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <div class="col-sm-6" id='right'>
+                <BR>
+                <h2><strong>REGISTRATION</strong></h2>
+                <br>
+                <form>
+                    <div class="form-group">
+                        <div class="form-group">
+                            <!-- <label for="exampleInputName">Parent Name</label> -->
+                            <input type="text" class="form-control done" id="inputName" placeholder="Parent Name">
+                        </div>
+
+                        <div class="form-group">
+                            <!-- <label for="exampleInputChild">Child Name</label> -->
+                            <input type="text" class="form-control done" id="inputChild" placeholder="Child Name">
+                        </div>
+
+                        <div class="form-group">
+                            <!-- <label for="exampleInputAge">Age of Child</label> -->
+                            <input type="number" class="form-control done" id="inputAge" placeholder="Age of Child">
+                        </div>
+
+                        <div class="form-group">
+                            <!-- <label for="exampleInputAge">Age of Child</label> -->
+                            <input type="text" class="form-control done" id="displayName1" placeholder="Forum Display Name">
+                        </div>
+
+                        <!-- <label for="exampleInputEmail1">Email address</label> -->
+                        <input type="email" class="form-control done" id="InputEmail1" aria-describedby="emailHelp"
+                            placeholder="Email">
+                        <small id="emailHelp" class="form-text text-muted ">We'll never share your email with anyone
+                            else.
+                        </small>
+                    </div>
+
+                    <div class="form-group">
+                        <!-- <label for="exampleInputPassword1">Password</label> -->
+                        <input type="password" class="form-control done" id="InputPassword1" placeholder="Password">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary" id="newUserbtn">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k"
+        crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+    <script type="text/javascript" src="assets/javascript/main.js"></script>
+</body>
+
+</html>
